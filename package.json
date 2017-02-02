@@ -4,8 +4,8 @@
   "description": "Starter template",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "babel src/js -d build --presets es2015"
+    "build": "webpack",
+    "serve": "webpack-dev-server"
   },
   "author": "Amar Bhamra",
   "license": "ISC",
